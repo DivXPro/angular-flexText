@@ -1,0 +1,27 @@
+{
+  "name": "angular-flexText",
+  "description": "angular 自适应高度文本框",
+  "main": "",
+  "keywords": [
+    "angular",
+    "textarea",
+    "auto",
+    "height"
+  ],
+  "authors": [
+    "Smohan"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}

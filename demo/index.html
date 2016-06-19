@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>angular flex box</title>
+    <style rel="stylesheet">
+		body{
+			padding: 1em;
+		}
+		textarea{
+			display: block;
+			width: 80%;
+			resize : none;
+			box-sizing: border-box;
+			padding: 1em;
+			margin: 1em auto;
+		}
+	</style>
+</head>
+<body ng-app="myApp">
+
+
+<h1>angular FlexBox</h1>
+
+<textarea rows="1" flex-text min-height="40" max-height="400"></textarea>
+
+
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../angular-flexText.min.js"></script>
+<script>
+
+	var app = angular.module('myApp', ['angular-flexText'])
+	
+</script>	
+</body>
+</html>
