@@ -5,7 +5,7 @@ var gulp    = require('gulp'),
 
 gulp.task('build', function() {
 	return gulp.src('./angular-flexText.js')
-	.pipe(uglify())
+	.pipe(uglify({preserveComments: 'license'}))
 	.pipe(rename({ suffix: '.min' }))
 	.pipe(gulp.dest('./'))
 	

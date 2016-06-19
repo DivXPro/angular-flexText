@@ -1,10 +1,12 @@
 /**
- * Created by smohan on 2016/6/15.
+ * @license angularFlexTex v1.0.0
+ * (c) 2016 smohan.net http://www.smohan.net
+ * License: MIT
  */
 +(function(){
     "use strict";
     angular.module('angular-flexText', [])
-        .directive('flexText', ['$timeout', function ($timeout) {
+        .directive('', ['$timeout', function ($timeout) {
             return {
                 scope : {
                     minHeight : '=',
