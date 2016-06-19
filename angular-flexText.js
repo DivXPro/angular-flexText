@@ -1,6 +1,6 @@
 /**
  * @license angularFlexTex v1.0.0
- * (c) 2016 smohan.net http://www.smohan.net
+ * (c) 2016 smohan http://www.smohan.net
  * License: MIT
  */
 +(function(){
