@@ -1,7 +1,7 @@
 {
   "name": "angular-flexText",
   "description": "angular 自适应高度文本框",
-  "main": "",
+  "main": "angular-flexText",
   "keywords": [
     "angular",
     "textarea",
@@ -12,8 +12,7 @@
     "Smohan"
   ],
   "license": "MIT",
-  "homepage": "",
-  "private": true,
+  "homepage": "https://github.com/S-mohan/angular-flexText",
   "ignore": [
     "**/.*",
     "node_modules",
