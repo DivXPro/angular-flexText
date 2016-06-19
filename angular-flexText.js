@@ -6,7 +6,7 @@
 +(function(){
     "use strict";
     angular.module('angular-flexText', [])
-        .directive('', ['$timeout', function ($timeout) {
+        .directive('flexText', ['$timeout', function ($timeout) {
             return {
                 scope : {
                     minHeight : '=',
